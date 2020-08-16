@@ -1,0 +1,2 @@
+net/petrikainulainen/junit5/JUnit5NestedExampleTest.java
+ net.petrikainulainen.junit5.JUnit5NestedExampleTest

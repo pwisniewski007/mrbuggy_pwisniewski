@@ -3,14 +3,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - JUnit5NestedExampleTest</title>
+<title>Test results - Class net.petrikainulainen.junit5.JUnit5NestedExampleTest</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>JUnit5NestedExampleTest</h1>
+<h1>Class net.petrikainulainen.junit5.JUnit5NestedExampleTest</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
 <a href="../packages/net.petrikainulainen.junit5.html">net.petrikainulainen.junit5</a> &gt; JUnit5NestedExampleTest</div>
@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">4.409s</div>
+<div class="counter">2.417s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,8 +78,13 @@
 </tr>
 </thead>
 <tr>
-<td class="success">simple_get_test()</td>
-<td class="success">4.409s</td>
+<td class="success">editUser()</td>
+<td class="success">0.185s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetUsers()</td>
+<td class="success">2.232s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,9 +92,9 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>&lt;html&gt;
-  &lt;body&gt;{&quot;result:&quot;:{&quot;statements&quot;:[{&quot;TRANSACTION_ID&quot;:&quot;12&quot;,&quot;ACCOUNT_NO&quot;:&quot;1&quot;,&quot;DATE_OF_TRANSACTION&quot;:&quot;2013-11-16&quot;,&quot;AMOUNT&quot;:&quot;500&quot;,&quot;TRANSACTION_TYPE&quot;:&quot;D&quot;,&quot;DESCRIPTION&quot;:&quot;Initial Deposit&quot;},{&quot;TRANSACTION_ID&quot;:&quot;23&quot;,&quot;ACCOUNT_NO&quot;:&quot;1&quot;,&quot;DATE_OF_TRANSACTION&quot;:&quot;2013-11-17&quot;,&quot;AMOUNT&quot;:&quot;14&quot;,&quot;TRANSACTION_TYPE&quot;:&quot;t&quot;,&quot;DESCRIPTION&quot;:&quot;yi Tansfer From 14&quot;},{&quot;TRANSACTION_ID&quot;:&quot;25&quot;,&quot;ACCOUNT_NO&quot;:&quot;1&quot;,&quot;DATE_OF_TRANSACTION&quot;:&quot;2013-11-18&quot;,&quot;AMOUNT&quot;:&quot;1&quot;,&quot;TRANSACTION_TYPE&quot;:&quot;t&quot;,&quot;DESCRIPTION&quot;:&quot;hgg Tansfer From 15&quot;},{&quot;TRANSACTION_ID&quot;:&quot;49745&quot;,&quot;ACCOUNT_NO&quot;:&quot;1&quot;,&quot;DATE_OF_TRANSACTION&quot;:&quot;2017-04-13&quot;,&quot;AMOUNT&quot;:&quot;0&quot;,&quot;TRANSACTION_TYPE&quot;:&quot;t&quot;,&quot;DESCRIPTION&quot;:&quot;0 Tansfer From 1&quot;},{&quot;TRANSACTION_ID&quot;:&quot;94867&quot;,&quot;ACCOUNT_NO&quot;:&quot;1&quot;,&quot;DATE_OF_TRANSACTION&quot;:&quot;2018-11-21&quot;,&quot;AMOUNT&quot;:&quot;500&quot;,&quot;TRANSACTION_TYPE&quot;:&quot;t&quot;,&quot;DESCRIPTION&quot;:&quot;cash Tansfer From 14&quot;}]},&quot;message&quot;:{&quot;ErrorCode:&quot;:0,&quot;ErrorMsg:&quot;:&quot;Success&quot;}}&lt;/body&gt;
-&lt;/html&gt;
+<pre>{&quot;Data&quot;:[{&quot;Id&quot;:6,&quot;Role&quot;:&quot;Admin&quot;,&quot;Status&quot;:&quot;Active&quot;,&quot;Username&quot;:&quot;przemek32&quot;,&quot;FirstName&quot;:&quot;Testowy&quot;,&quot;LastName&quot;:&quot;User&quot;},{&quot;Id&quot;:5,&quot;Role&quot;:&quot;Admin&quot;,&quot;Status&quot;:&quot;Active&quot;,&quot;Username&quot;:&quot;dupskoasd&quot;,&quot;FirstName&quot;:&quot;przemek&quot;,&quot;LastName&quot;:&quot;dupsko&quot;},{&quot;Id&quot;:4,&quot;Role&quot;:&quot;Admin&quot;,&quot;Status&quot;:&quot;Active&quot;,&quot;Username&quot;:&quot;dupsko&quot;,&quot;FirstName&quot;:&quot;przemek&quot;,&quot;LastName&quot;:&quot;dupsko&quot;},{&quot;Id&quot;:3,&quot;Role&quot;:&quot;Admin&quot;,&quot;Status&quot;:&quot;Active&quot;,&quot;Username&quot;:&quot;przemek2&quot;,&quot;FirstName&quot;:&quot;Przemek&quot;,&quot;LastName&quot;:&quot;Wisniewski&quot;},{&quot;Id&quot;:2,&quot;Role&quot;:&quot;Employee&quot;,&quot;Status&quot;:&quot;Active&quot;,&quot;Username&quot;:&quot;przemek2333&quot;,&quot;FirstName&quot;:&quot;bbbl&quot;,&quot;LastName&quot;:&quot;ccc&quot;},{&quot;Id&quot;:1,&quot;Role&quot;:&quot;Admin&quot;,&quot;Status&quot;:&quot;Active&quot;,&quot;Username&quot;:&quot;admin&quot;,&quot;FirstName&quot;:&quot;First&quot;,&quot;LastName&quot;:&quot;Admin&quot;}],&quot;Success&quot;:true}
+http://localhost:8080/user/5
+{&quot;Data&quot;:{&quot;Id&quot;:5,&quot;Role&quot;:&quot;Admin&quot;,&quot;Status&quot;:&quot;Active&quot;,&quot;Username&quot;:&quot;przemek323&quot;,&quot;FirstName&quot;:&quot;dupsko&quot;,&quot;LastName&quot;:&quot;UserZmieniony&quot;,&quot;PhoneNumber&quot;:&quot;333444555&quot;,&quot;Email&quot;:&quot;dupsko@o2.pl&quot;},&quot;Success&quot;:true}
 </pre>
 </span>
 </div>
@@ -101,7 +106,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.4.1</a> at 16 sie 2020, 13:00:06</p>
+<a href="http://www.gradle.org">Gradle 6.6</a> at Aug 16, 2020, 8:27:17 PM</p>
 </div>
 </div>
 </body>

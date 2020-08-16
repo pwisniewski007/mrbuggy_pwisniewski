@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.petrikainulainen.junit5.JUnit5NestedExampleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-16T11:00:02" hostname="iron-300E4A-300E5A-300E7A-3430EA-3530EA" time="4.409">
+<testsuite name="net.petrikainulainen.junit5.JUnit5NestedExampleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-08-16T18:27:15" hostname="INV-9796" time="2.419">
   <properties/>
-  <testcase name="simple_get_test()" classname="net.petrikainulainen.junit5.JUnit5NestedExampleTest" time="4.409"/>
-  <system-out><![CDATA[<html>
-  <body>{"result:":{"statements":[{"TRANSACTION_ID":"12","ACCOUNT_NO":"1","DATE_OF_TRANSACTION":"2013-11-16","AMOUNT":"500","TRANSACTION_TYPE":"D","DESCRIPTION":"Initial Deposit"},{"TRANSACTION_ID":"23","ACCOUNT_NO":"1","DATE_OF_TRANSACTION":"2013-11-17","AMOUNT":"14","TRANSACTION_TYPE":"t","DESCRIPTION":"yi Tansfer From 14"},{"TRANSACTION_ID":"25","ACCOUNT_NO":"1","DATE_OF_TRANSACTION":"2013-11-18","AMOUNT":"1","TRANSACTION_TYPE":"t","DESCRIPTION":"hgg Tansfer From 15"},{"TRANSACTION_ID":"49745","ACCOUNT_NO":"1","DATE_OF_TRANSACTION":"2017-04-13","AMOUNT":"0","TRANSACTION_TYPE":"t","DESCRIPTION":"0 Tansfer From 1"},{"TRANSACTION_ID":"94867","ACCOUNT_NO":"1","DATE_OF_TRANSACTION":"2018-11-21","AMOUNT":"500","TRANSACTION_TYPE":"t","DESCRIPTION":"cash Tansfer From 14"}]},"message":{"ErrorCode:":0,"ErrorMsg:":"Success"}}</body>
-</html>
+  <testcase name="testGetUsers()" classname="net.petrikainulainen.junit5.JUnit5NestedExampleTest" time="2.232"/>
+  <testcase name="editUser()" classname="net.petrikainulainen.junit5.JUnit5NestedExampleTest" time="0.185"/>
+  <system-out><![CDATA[{"Data":[{"Id":6,"Role":"Admin","Status":"Active","Username":"przemek32","FirstName":"Testowy","LastName":"User"},{"Id":5,"Role":"Admin","Status":"Active","Username":"dupskoasd","FirstName":"przemek","LastName":"dupsko"},{"Id":4,"Role":"Admin","Status":"Active","Username":"dupsko","FirstName":"przemek","LastName":"dupsko"},{"Id":3,"Role":"Admin","Status":"Active","Username":"przemek2","FirstName":"Przemek","LastName":"Wisniewski"},{"Id":2,"Role":"Employee","Status":"Active","Username":"przemek2333","FirstName":"bbbl","LastName":"ccc"},{"Id":1,"Role":"Admin","Status":"Active","Username":"admin","FirstName":"First","LastName":"Admin"}],"Success":true}
+http://localhost:8080/user/5
+{"Data":{"Id":5,"Role":"Admin","Status":"Active","Username":"przemek323","FirstName":"dupsko","LastName":"UserZmieniony","PhoneNumber":"333444555","Email":"dupsko@o2.pl"},"Success":true}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
