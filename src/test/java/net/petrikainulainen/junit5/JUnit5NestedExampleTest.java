@@ -64,9 +64,9 @@ public class JUnit5NestedExampleTest {
 		String response = given()
 				.contentType(ContentType.URLENC)
 				.formParam("username", "przemek323")
-				.formParam("first_name", "dupsko")
+				.formParam("first_name", "przemyslaw")
 				.formParam("last_name", "UserZmieniony")
-				.formParam("email", "dupsko@o2.pl")
+				.formParam("email", "jakisemail@o2.pl")
 				.formParam("phone_number", "333444555")
 				.formParam("password", "password123!")
 				.headers(
